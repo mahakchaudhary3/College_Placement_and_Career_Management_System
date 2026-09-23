@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Applications | Placement Portal</title>
+    <link rel="stylesheet" href="css/applications.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+        <h2>Placement Portal</h2>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="profile.html">Profile</a>
+            <a href="jobs.html">Job Opportunities</a>
+            <a href="applications.html" class="active">My Applications</a>
+            <a href="interviews.html">Interview Schedule</a>
+        </nav>
+
+        <a href="index.html" class="logout">Logout</a>
+    </aside>
+
+    <main class="main">
+
+        <header class="topbar">
+            <div>
+                <p>PLACEMENT TRACKER</p>
+                <h1>My Applications</h1>
+            </div>
+
+            <div class="student">
+                <span class="avatar">RS</span>
+                <div>
+                    <strong>Rahul Sharma</strong>
+                    <small>B.Tech CSE</small>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-intro">
+            <div>
+                <h2>Track your applications</h2>
+                <p>Keep an eye on every opportunity you have applied for.</p>
+            </div>
+
+            <a href="jobs.html">Find More Jobs</a>
+        </section>
+
+        <section class="summary">
+
+            <div class="summary-card">
+                <span>Total Applications</span>
+                <strong>5</strong>
+            </div>
+
+            <div class="summary-card">
+                <span>Shortlisted</span>
+                <strong>2</strong>
+            </div>
+
+            <div class="summary-card">
+                <span>Under Review</span>
+                <strong>1</strong>
+            </div>
+
+            <div class="summary-card">
+                <span>Interviews</span>
+                <strong>1</strong>
+            </div>
+
+        </section>
+
+        <section class="applications-card">
+
+            <div class="table-head">
+                <h2>Application History</h2>
+
+                <div class="filter">
+                    <input type="text" placeholder="Search applications">
+                    <select>
+                        <option>All Status</option>
+                        <option>Applied</option>
+                        <option>Under Review</option>
+                        <option>Shortlisted</option>
+                        <option>Rejected</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="table-wrap">
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Role</th>
+                            <th>Date Applied</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <div class="company">
+                                    <span>T</span>
+                                    TCS
+                                </div>
+                            </td>
+                            <td>Software Developer</td>
+                            <td>5 Sep 2026</td>
+                            <td><b class="status shortlisted">Shortlisted</b></td>
+                            <td><a href="job-details.html">View</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="company">
+                                    <span>I</span>
+                                    Infosys
+                                </div>
+                            </td>
+                            <td>System Engineer</td>
+                            <td>5 Sep 2026</td>
+                            <td><b class="status review">Under Review</b></td>
+                            <td><a href="job-details.html">View</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="company">
+                                    <span>W</span>
+                                    Wipro
+                                </div>
+                            </td>
+                            <td>Project Engineer</td>
+                            <td>25 Sep 2026</td>
+                            <td><b class="status applied">Applied</b></td>
+                            <td><a href="job-details.html">View</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="company">
+                                    <span>A</span>
+                                    Accenture
+                                </div>
+                            </td>
+                            <td>Associate Engineer</td>
+                            <td>20 Sep 2026</td>
+                            <td><b class="status rejected">Rejected</b></td>
+                            <td><a href="job-details.html">View</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="company">
+                                    <span>D</span>
+                                    Deloitte
+                                </div>
+                            </td>
+                            <td>Analyst</td>
+                            <td>22 Sep 2026</td>
+                            <td><b class="status interview">Interview Scheduled</b></td>
+                            <td><a href="job-details.html">View</a></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+        </section>
+
+        <section class="journey">
+
+            <div class="journey-title">
+                <p>APPLICATION STATUS</p>
+                <h2>Understand your placement journey</h2>
+            </div>
+
+            <div class="journey-list">
+
+                <div>
+                    <span class="number">01</span>
+                    <h3>Applied</h3>
+                    <p>Application submitted successfully.</p>
+                </div>
+
+                <div>
+                    <span class="number">02</span>
+                    <h3>Under Review</h3>
+                    <p>Company is reviewing your application.</p>
+                </div>
+
+                <div>
+                    <span class="number">03</span>
+                    <h3>Shortlisted</h3>
+                    <p>You have cleared the initial screening.</p>
+                </div>
+
+                <div>
+                    <span class="number">04</span>
+                    <h3>Interview</h3>
+                    <p>You have been invited for an interview.</p>
+                </div>
+
+                <div>
+                    <span class="number">05</span>
+                    <h3>Selected</h3>
+                    <p>You have been selected for the role.</p>
+                </div>
+
+                <div>
+                    <span class="number rejected-number">×</span>
+                    <h3>Rejected</h3>
+                    <p>The application was not progressed.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+</div>
+
+</body>
+</html>
