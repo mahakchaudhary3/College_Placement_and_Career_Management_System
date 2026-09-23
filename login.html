@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Placement Portal</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<div class="login-page">
+
+    <div class="login-intro">
+        <div class="brand">Placement Portal</div>
+
+        <div>
+            <p class="tag">STUDENT PLACEMENT PORTAL</p>
+            <h1>Your placement journey starts here.</h1>
+            <p>
+                Login to check opportunities, applications, interview schedules
+                and career preparation resources.
+            </p>
+        </div>
+
+        <a href="index.html" class="back-home">← Back to Home</a>
+    </div>
+
+    <div class="login-area">
+        <div class="login-card">
+
+            <div class="card-heading">
+                <h2>Welcome back</h2>
+                <p>Sign in to your placement account</p>
+            </div>
+
+            <div class="account-type">
+                <label>
+                    <input type="radio" name="type" checked>
+                    Student
+                </label>
+
+                <label>
+                    <input type="radio" name="type">
+                    Admin
+                </label>
+            </div>
+
+            <form action="dashboard.html">
+
+                <label for="email">Email or Enrollment Number</label>
+                <input
+                    type="text"
+                    id="email"
+                    placeholder="Enter your email or enrollment number"
+                    required
+                >
+
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    required
+                >
+
+                <div class="form-options">
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <p class="register">
+                Don't have an account?
+                <a href="#">Register here</a>
+            </p>
+
+            <p class="demo-note">
+                Frontend demonstration only. No real authentication is used.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
