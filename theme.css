@@ -104,3 +104,11 @@ button:hover,
 .back {
     color: var(--crimson) !important;
 }
+
+/* JavaScript interaction additions */
+.portal-home-search{display:flex;gap:8px;margin-top:20px;max-width:460px}
+.portal-home-search input{flex:1;min-width:0;padding:12px 14px;border:1px solid #d9e0e5;border-radius:6px;font:inherit}
+.portal-home-search button{padding:12px 16px;border:0;border-radius:6px;background:#0b2d4d;color:#fff;cursor:pointer}
+.job-card[hidden]{display:none!important}
+.company-card{cursor:pointer}
+.mark-complete:disabled{opacity:.65;cursor:default}
