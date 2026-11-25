@@ -1,0 +1,28 @@
+PLACEMENT PORTAL — JSON SERVER ONLY (NO EXPRESS / NO CUSTOM BACKEND)
+
+1. npm install
+2. npm run db
+3. Keep the database terminal open.
+4. Open index.html with VS Code Live Server.
+
+JSON Server URL: http://127.0.0.1:3002
+Quick test: http://127.0.0.1:3002/students
+
+Admin login:
+Email: mk9142812668@gmail.com
+Password: Madhav@123
+
+Students register first. Registration includes CGPA and attendance.
+Attendance requirement: 75%. Admin can configure demo company CGPA thresholds from 6.5 to 8.0.
+
+Interview workflow:
+- Student submits an application.
+- Admin selects that submitted application to schedule an interview.
+- Interview is linked to application/student/job.
+- Only future date/time can be scheduled.
+- Past interviews never appear as Upcoming.
+- No sample interviews are preloaded.
+
+Career Resources PDFs are in resources/ and linked from the Student Dashboard.
+
+Note: .env is a configuration reference only; JSON Server CLI does not auto-load it. This demo stores student passwords in db.json and is not production-secure.

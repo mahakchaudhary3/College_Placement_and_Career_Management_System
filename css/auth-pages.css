@@ -1,0 +1,14 @@
+*{box-sizing:border-box}
+.auth-body{min-height:100vh;margin:0;padding:28px 16px;display:grid;place-items:center;background:#f4f6fa;color:#172b4d;font-family:Arial,sans-serif}
+.auth-card{width:min(100%,460px);padding:34px;background:#fff;border:1px solid #e4e9f1;border-radius:16px;box-shadow:0 16px 45px rgba(18,42,76,.09)}
+.auth-brand{display:inline-block;margin-bottom:20px;color:#15345b;font-size:20px;font-weight:700;text-decoration:none}
+.eyebrow{color:#55769d;font-size:11px;letter-spacing:1.5px;font-weight:bold}
+.auth-card h1{margin:8px 0;font-size:28px}.muted,.hint{color:#6b778c;font-size:14px;line-height:1.5}
+.auth-card form{display:grid;gap:9px;margin-top:22px}.auth-card label{font-size:14px;font-weight:600;color:#243b5a}
+.auth-card input:not([type=radio]){width:100%;padding:12px 13px;border:1px solid #d5dce7;border-radius:8px;font:inherit;margin-bottom:7px}
+.auth-card input:focus{outline:2px solid #9ab7df;border-color:#315b91}
+.auth-card button{padding:13px;border:0;border-radius:8px;background:#173b67;color:white;font-size:15px;font-weight:700;cursor:pointer}
+.role-row{display:flex;gap:24px;margin:3px 0 12px}.role-row label{font-weight:400}
+.form-message{min-height:18px;margin:3px 0;color:#b42318;font-size:13px}
+.auth-switch{text-align:center;margin-top:20px;font-size:14px}.auth-switch a{color:#1d5792;font-weight:700}
+.hint{margin:0 0 5px}

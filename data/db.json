@@ -1,0 +1,88 @@
+{
+  "students": [
+    {
+      "name": "Madhav kumar",
+      "email": "mk9142812668@gmail.com",
+      "course": "btech",
+      "password": "Madhav@123",
+      "cgpa": 7.66,
+      "attendance": 89,
+      "createdAt": "2026-11-24T11:41:03.570Z",
+      "id": 1
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "company": "TCS",
+      "role": "Software Developer",
+      "package": "₹7 LPA",
+      "location": "Noida",
+      "type": "Full Time",
+      "category": "Software",
+      "eligibility": "Minimum CGPA 6.5 and 75% attendance",
+      "deadline": "2026-12-30",
+      "description": "Build and maintain software applications.",
+      "minimumCgpa": 6.5,
+      "minimumAttendance": 75
+    },
+    {
+      "id": "2",
+      "company": "Infosys",
+      "role": "System Engineer",
+      "package": "₹6.5 LPA",
+      "location": "Pune",
+      "type": "Full Time",
+      "category": "Software",
+      "eligibility": "Minimum CGPA 7 and 75% attendance",
+      "deadline": "2026-12-31",
+      "description": "Work on enterprise technology solutions.",
+      "minimumCgpa": 7,
+      "minimumAttendance": 75
+    },
+    {
+      "id": "3",
+      "company": "Wipro",
+      "role": "Project Engineer",
+      "package": "₹6 LPA",
+      "location": "Bangalore",
+      "type": "Full Time",
+      "category": "Software",
+      "eligibility": "Minimum CGPA 6.5 and 75% attendance",
+      "deadline": "2027-01-05",
+      "description": "Contribute to software delivery projects.",
+      "minimumCgpa": 6.5,
+      "minimumAttendance": 75
+    },
+    {
+      "id": "4",
+      "company": "Accenture",
+      "role": "Associate Engineer",
+      "package": "₹7 LPA",
+      "location": "Bangalore",
+      "type": "Full Time",
+      "category": "Software",
+      "eligibility": "Minimum CGPA 7 and 75% attendance",
+      "deadline": "2027-01-10",
+      "description": "Support digital transformation projects.",
+      "minimumCgpa": 7,
+      "minimumAttendance": 75
+    },
+    {
+      "id": "5",
+      "company": "Deloitte",
+      "role": "Data Analyst",
+      "package": "₹8 LPA",
+      "location": "Gurugram",
+      "type": "Full Time",
+      "category": "Data",
+      "eligibility": "Minimum CGPA 8 and 75% attendance",
+      "deadline": "2027-01-15",
+      "description": "Analyze data and prepare business insights.",
+      "minimumCgpa": 8,
+      "minimumAttendance": 75
+    }
+  ],
+  "applications": [],
+  "interviews": []
+}
